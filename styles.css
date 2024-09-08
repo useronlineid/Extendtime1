@@ -1,66 +1,4 @@
 
-/* SukhumvitSet */
-@font-face {
-    font-family: 'SukhumvitSetThin';
-    src: url('/assets/fonts/SukhumvitSet-Thin.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'SukhumvitSetLight';
-    src: url('/assets/fonts/SukhumvitSet-Light.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SukhumvitSetRegular';
-    src: url('/assets/fonts/SukhumvitSet-Text.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SukhumvitSetMedium';
-    src: url('/assets/fonts/SukhumvitSet-Medium.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SukhumvitSetSemiBold';
-    src: url('/assets/fonts/SukhumvitSet-SemiBold.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'SukhumvitSetBold';
-    src: url('/assets/fonts/SukhumvitSet-Bold.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'SukhumvitSetExtraBold';
-    src: url('/assets/fonts/SukhumvitSet-Extra%20Bold.woff') format('woff');
-}
-
-/* SF Thonburi */
-
-@font-face {
-    font-family: 'SFThonburiLight';
-    src: url('/assets/fonts/SFThonburi.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SFThonburiRegular';
-    src: url('/assets/fonts/SFThonburi-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'SFThonburiSemiBold';
-    src: url('/assets/fonts/SFThonburi-Semibold.woff') format('woff');
-}
-
-
-@font-face {
-    font-family: 'SFThonburiBold';
-    src: url('/assets/fonts/SFThonburi-Bold.woff') format('woff');
-}
-
 /* Kanit */
 @font-face {
     font-family: 'KanitThin';
@@ -98,26 +36,7 @@
     font-family: 'KanitBlack';
     src: url('/assets/fonts/Kanit-Black.woff') format('woff');
 }
-/* Bangkok*/
-@font-face {
-    font-family: 'BangkokTime1';
-    src: url('/assets/fonts/Bangkok-Time1.woff') format('woff');
-}
 
-@font-face {
-    font-family: 'BangkokTime2';
-    src: url('/assets/fonts/Bangkok-Time2.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'BangkokMoney';
-    src: url('/assets/fonts/Bangkok-Money.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'BangkokTime';
-    src: url('/assets/fonts/Bangkok-Time.woff') format('woff');
-}
 
 /* THSarabunNew */
 
@@ -160,62 +79,6 @@
     font-family: 'THSarabunNewBoldItalic';
     src: url('/assets/fonts/THSarabunNew-BoldItalic.woff') format('woff');
 }
-/* Other*/
-@font-face {
-    font-family: 'DXKrungthaiSemiBold';
-    src: url('/assets/fonts/DX-Krungthai-SemiBold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXKrungthaiThin';
-    src: url('/assets/fonts/DX-Krungthai-Thin.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXSCB';
-    src: url('/assets/fonts/DX-SCB.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXTTBBold';
-    src: url('/assets/fonts/DX-TTB-bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXTTBRegular';
-    src: url('/assets/fonts/DX-TTB-regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXKrungthaiBold';
-    src: url('/assets/fonts/DX-Krungthai-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXKrungthaiMedium';
-    src: url('/assets/fonts/DX-Krungthai-Medium.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'DXKrungthaiRegular';
-    src: url('/assets/fonts/DX-Krungthai-Regular.woff') format('woff');
-}
-@font-face {
-    font-family: 'TTBMoney';
-    src: url('/assets/fonts/TTB Money.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'CoreSansLight';
-    src: url('/assets/fonts/Core-Sans-E-W01-35-Light.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'CoreSansBold';
-    src: url('/assets/fonts/Core-Sans-N-65-Bold.woff') format('woff');
-}
-
-
 
 body {
     font-family: 'KanitMedium', Arial, sans-serif;
