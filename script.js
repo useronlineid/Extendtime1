@@ -31,9 +31,7 @@ function loadFonts() {
 }
 
 // เรียกใช้ฟังก์ชันเพื่อโหลดฟอนต์หลังจากหน้าเว็บถูกโหลด
-window.onload = function() {
-    setCurrentDateTime();
-    
+window.onload = function() {    
     loadFonts().then(function() {
         document.fonts.onloadingdone = function() {
             updateDisplay(); // วาดใหม่ด้วยฟอนต์ที่ถูกต้องเมื่อฟอนต์ถูกโหลดครบแล้ว
@@ -96,7 +94,6 @@ function handlePaste(event) {
 }
 
 function updateDisplay() {
-    const datetime = document.getElementById('datetime').value || '-';
     const User = document.getElementById('User').value || '-';
     const accountNumber = document.getElementById('accountNumber').value || '-';
     const transactionDate = document.getElementById('transactionDate').value || '-';
@@ -123,11 +120,7 @@ function updateDisplay() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         // Draw background image
-        ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-
-        // Draw text with custom styles
-        drawText(ctx, `${datetime}`, 63.4, 45.8,22.50, 'SF Thonburi', '#ffffff', '600', 'left', 1.5, 3, 0, 0, 800, 0);
-        
+        ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);      
         
         drawText(ctx, `เลขที่ 12659/2567`, 60.0,110.0,30,'THSarabunNew', '#000000', 'left', 1.5, 3, 0, 0, 800, 0);
 
