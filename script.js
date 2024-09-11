@@ -34,13 +34,12 @@ function loadFonts() {
 window.onload = function() {    
     loadFonts().then(function() {
         document.fonts.onloadingdone = function() {
-        
+            updateDisplay(); // วาดใหม่ด้วยฟอนต์ที่ถูกต้องเมื่อฟอนต์ถูกโหลดครบแล้ว
         };
-        
+        updateDisplay(); // แสดงผลทันทีเมื่อหน้าเว็บโหลด
     });
-updateDisplay(); // แสดงผลทันทีเมื่อหน้าเว็บโหลด
-};
 
+};
 
 
 
