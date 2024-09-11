@@ -2,24 +2,24 @@
 function loadFonts() {
     const fonts = [
         //Kanit
-        new FontFace('KanitThin', 'url(assets/fonts/Kanit-Thin.woff)'),
-        new FontFace('KanitExtraLight', 'url(assets/fonts/Kanit-ExtraLight.woff)'),
-        new FontFace('KanitLight', 'url(assets/fonts/Kanit-Light.woff)'),
-        new FontFace('KanitRegular', 'url(assets/fonts/Kanit-Regular.woff)'),
-        new FontFace('KanitMedium', 'url(assets/fonts/Kanit-Medium.woff)'),
-        new FontFace('KanitSemiBold', 'url(assets/fonts/Kanit-SemiBold.woff)'),
-        new FontFace('KanitBold', 'url(assets/fonts/Kanit-Bold.woff)'),
-        new FontFace('KanitExtraBold', 'url(assets/fonts/Kanit-ExtraBold.woff)'),
-        new FontFace('KanitBlack', 'url(assets/fonts/Kanit-Black.woff)'),
+        new FontFace('KanitThin', 'url(./assets/fonts/Kanit-Thin.woff)'),
+        new FontFace('KanitExtraLight', 'url(./assets/fonts/Kanit-ExtraLight.woff)'),
+        new FontFace('KanitLight', 'url(./assets/fonts/Kanit-Light.woff)'),
+        new FontFace('KanitRegular', 'url(./assets/fonts/Kanit-Regular.woff)'),
+        new FontFace('KanitMedium', 'url(./assets/fonts/Kanit-Medium.woff)'),
+        new FontFace('KanitSemiBold', 'url(./assets/fonts/Kanit-SemiBold.woff)'),
+        new FontFace('KanitBold', 'url(./assets/fonts/Kanit-Bold.woff)'),
+        new FontFace('KanitExtraBold', 'url(./assets/fonts/Kanit-ExtraBold.woff)'),
+        new FontFace('KanitBlack', 'url(./assets/fonts/Kanit-Black.woff)'),
         //THSarabunNew
-        new FontFace('THSarabunRegular', 'url(assets/fonts/THSarabun.woff)'),
-        new FontFace('THSarabunBold', 'url(assets/fonts/THSarabun-Bold.woff)'),
-        new FontFace('THSarabunItalic', 'url(assets/fonts/THSarabun-Italic.woff)'),
-        new FontFace('THSarabunBoldItalic', 'url(/assets/fonts/THSarabun-BoldItalic.woff)'),
-        new FontFace('THSarabunNew', 'url(assets/fonts/THSarabunNew.woff)'),
-        new FontFace('THSarabunNewBold', 'url(assets/fonts/THSarabunNew-Bold.woff)'),
-        new FontFace('THSarabunNewItalic', 'url(assets/fonts/THSarabunNew-Italic.woff)'),
-        new FontFace('THSarabunNewBoldItalic', 'url(assets/fonts/THSarabunNew-BoldItalic.woff)'),
+        new FontFace('THSarabunRegular', 'url(./assets/fonts/THSarabun.woff)'),
+        new FontFace('THSarabunBold', 'url(./assets/fonts/THSarabun-Bold.woff)'),
+        new FontFace('THSarabunItalic', 'url(./assets/fonts/THSarabun-Italic.woff)'),
+        new FontFace('THSarabunBoldItalic', 'url(./assets/fonts/THSarabun-BoldItalic.woff)'),
+        new FontFace('THSarabunNew', 'url(./assets/fonts/THSarabunNew.woff)'),
+        new FontFace('THSarabunNewBold', 'url(./assets/fonts/THSarabunNew-Bold.woff)'),
+        new FontFace('THSarabunNewItalic', 'url(./assets/fonts/THSarabunNew-Italic.woff)'),
+        new FontFace('THSarabunNewBoldItalic', 'url(./assets/fonts/THSarabunNew-BoldItalic.woff)'),
     ];
 
     // โหลดฟอนต์ทั้งหมดและเพิ่มเข้าไปที่ document
