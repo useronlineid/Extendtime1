@@ -36,9 +36,9 @@ window.onload = function() {
         document.fonts.onloadingdone = function() {
         
         };
-        updateDisplay(); // แสดงผลทันทีเมื่อหน้าเว็บโหลด
+        
     });
-
+updateDisplay(); // แสดงผลทันทีเมื่อหน้าเว็บโหลด
 };
 
 
